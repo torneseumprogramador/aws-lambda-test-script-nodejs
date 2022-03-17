@@ -45,3 +45,4 @@ https://stackoverflow.com/questions/29877220/invoke-a-aws-lambda-function-by-a-h
 - Criar uma API gateway - https://sa-east-1.console.aws.amazon.com/apigateway/home?region=sa-east-1
 - Criar uma trigger no lambda
 - Chamar a url que mostrará na trigger, exemplo: https://is2ajtx985.execute-api.sa-east-1.amazonaws.com/prod/poc_lambda?nome=danilo
+- Pegar os parametros no queryStringParameters que vem ao chamar a url
