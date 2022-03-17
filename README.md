@@ -40,9 +40,17 @@ exports.executa_teste = async (parametro) => {
 }
 ```
 
-# Para chamar uma função lambda via http, utilzar o API Gateway via trigger
+# Add trigger
+## Para chamar uma função lambda via http, utilzar o API Gateway via trigger
 https://stackoverflow.com/questions/29877220/invoke-a-aws-lambda-function-by-a-http-request
 - Criar uma API gateway - https://sa-east-1.console.aws.amazon.com/apigateway/home?region=sa-east-1
 - Criar uma trigger no lambda
 - Chamar a url que mostrará na trigger, exemplo: https://is2ajtx985.execute-api.sa-east-1.amazonaws.com/prod/poc_lambda?nome=danilo
 - Pegar os parametros no queryStringParameters que vem ao chamar a url
+
+
+# Add destination
+## Uma condição, no caso de falha, mandar para uma ação, no caso de sucesso, manadar para outra, as ações podem ser do tipo:
+- lambda
+- sns
+- sqs
