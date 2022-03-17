@@ -5,7 +5,7 @@ const func = async (params) => {
       
     const response = {
         statusCode: 200,
-        body: JSON.stringify('Hello from Lambda! - ' + "Key1: " + params.key1 + " ----- "  + JSON.stringify(params)),
+        body: JSON.stringify('Hello from Lambda! ------ '  + JSON.stringify(params)),
         statusHttpCall: result.status
     };
     
@@ -14,6 +14,6 @@ const func = async (params) => {
     return response;
 };
 
-func({key1: "Danilo"});
+// func({key1: "Danilo"});
 
 exports.executa_teste = func;

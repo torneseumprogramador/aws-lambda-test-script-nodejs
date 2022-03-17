@@ -39,3 +39,6 @@ exports.executa_teste = async (parametro) => {
    ]
 }
 ```
+
+# para chamar uma função lambda via http, utilzar o API Gateway
+https://stackoverflow.com/questions/29877220/invoke-a-aws-lambda-function-by-a-http-request
