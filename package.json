@@ -1,0 +1,22 @@
+{
+  "name": "aws-lambda-test-script-nodejs",
+  "version": "1.0.0",
+  "description": "```node exports.executa_teste = async (event) => {     // TODO implement     const response = {         statusCode: 200,         body: JSON.stringify('Hello from Lambda! - ' + \"Key1: \" + event.key1 + \" ----- \"  + JSON.stringify(event)),     };     return response; }; ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torneseumprogramador/aws-lambda-test-script-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torneseumprogramador/aws-lambda-test-script-nodejs/issues"
+  },
+  "homepage": "https://github.com/torneseumprogramador/aws-lambda-test-script-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
