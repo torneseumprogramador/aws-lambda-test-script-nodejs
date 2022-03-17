@@ -54,3 +54,6 @@ https://stackoverflow.com/questions/29877220/invoke-a-aws-lambda-function-by-a-h
 - lambda
 - sns
 - sqs
+
+# API Gateway
+## No caso de utilização de API Gateway, em rotas criar as rotinas lambda que irá executar o código das rotas na API
