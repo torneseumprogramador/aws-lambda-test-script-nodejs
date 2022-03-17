@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: v1
+Resources:
+  poclambda:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: index.executa_teste
+      Runtime: nodejs14.x
+      CodeUri: .
+      Description: v1
+      MemorySize: 128
+      Timeout: 3
+      Role: 'arn:aws:iam::763818760783:role/service-role/poc_lambda-role-fhx6k7iv'
